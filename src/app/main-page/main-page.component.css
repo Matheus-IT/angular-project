@@ -9,3 +9,7 @@ main {
 #section-banner img {
     object-fit: cover;
 }
+
+.card {
+    width: 16rem;
+}
