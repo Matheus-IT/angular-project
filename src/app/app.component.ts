@@ -29,7 +29,7 @@ import { MenuComponent } from './menu/menu.component';
     MenuComponent,
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'LH Games';
