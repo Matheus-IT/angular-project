@@ -1,8 +1,11 @@
-main {
-    min-height: 90vh
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
 }
 
-#section-login {
+#section-login{
     height: 100%;
     width: 400px;
     border-radius: 10px;
