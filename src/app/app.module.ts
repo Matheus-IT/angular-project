@@ -23,6 +23,7 @@ import { AtualizaProdutoComponent } from './restrito/atualiza-produto/atualiza-p
 import { CadastroProdutoComponent } from './restrito/cadastro-produto/cadastro-produto.component';
 import { ListaProdutoComponent } from './restrito/lista-produto/lista-produto.component';
 import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.component';
+import { RestritoRoutingModule } from './restrito/restrito-routing.module';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.co
     MatIconModule,
     MatInputModule,
     MatMenuModule,
-    MatToolbarModule
+    MatToolbarModule,
+    RestritoRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
