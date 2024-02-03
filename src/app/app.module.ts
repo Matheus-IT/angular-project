@@ -24,6 +24,7 @@ import { CadastroProdutoComponent } from './restrito/cadastro-produto/cadastro-p
 import { ListaProdutoComponent } from './restrito/lista-produto/lista-produto.component';
 import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.component';
 import { RestritoRoutingModule } from './restrito/restrito-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { RestritoRoutingModule } from './restrito/restrito-routing.module';
     MatInputModule,
     MatMenuModule,
     MatToolbarModule,
+    HttpClientModule,
     RestritoRoutingModule,
   ],
   providers: [],
