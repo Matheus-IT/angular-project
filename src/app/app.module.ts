@@ -25,6 +25,7 @@ import { ListaProdutoComponent } from './restrito/lista-produto/lista-produto.co
 import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.component';
 import { RestritoRoutingModule } from './restrito/restrito-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatToolbarModule,
     HttpClientModule,
     RestritoRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
